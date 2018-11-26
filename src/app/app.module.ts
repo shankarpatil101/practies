@@ -13,6 +13,7 @@ import { PipeModule } from './pages/pipes/pipe.module';
 import { FormModule } from './pages/forms/form.module';
 import { ObservableModule } from './pages/Observables/observable.module';
 import { DependencyInjectionModule } from './pages/Dependency Injection/di.module';
+import { HttpClientModuless } from './pages/http-client/http-client.module';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { DependencyInjectionModule } from './pages/Dependency Injection/di.modul
     PipeModule,
     FormModule,
     ObservableModule,
-    DependencyInjectionModule
+    DependencyInjectionModule,
+    HttpClientModuless,
       ],
   providers: [],
   bootstrap: [AppComponent]
